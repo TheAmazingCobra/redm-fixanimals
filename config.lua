@@ -1,6 +1,6 @@
-Config = {}
+AnimalFix = {}
 
-Config.AttackTypes = {
+AnimalFix.AttackTypes = {
 	{
 		models = {
 			`A_C_Alligator_01`,
@@ -24,7 +24,7 @@ Config.AttackTypes = {
 		},
 		radius = 3.0,
 		force = 2.0,
-		damage = 25
+		damage = 90
 	},
 	{
 		models = {
@@ -50,7 +50,7 @@ Config.AttackTypes = {
 		},
 		radius = 3.0,
 		force = 5.0,
-		damage = 30
+		damage = 45
 	},
 	{
 		models = {
@@ -78,7 +78,7 @@ Config.AttackTypes = {
 		},
 		radius = 2.0,
 		force = 3.0,
-		damage = 20
+		damage = 50
 	},
 	{
 		models = {
@@ -155,7 +155,7 @@ Config.AttackTypes = {
 		},
 		radius = 3.0,
 		force = 3.0,
-		damage = 30
+		damage = 35
 	},
 	{
 		models = {
@@ -171,6 +171,22 @@ Config.AttackTypes = {
 	},
 	{
 		models = {
+			`A_C_Snake_01`,
+			`A_C_SnakeBlackTailRattle_01`,
+			`A_C_SnakeFerDeLance_01`,
+            `A_C_SnakeRedBoa_01`
+			
+		},
+		animation = {
+			dict = "creatures_reptile@snake@melee@streamed_core",
+			name = "attack_high_far"
+		},
+		radius = 3.0,
+		force = 3.0,
+		damage = 50
+	},
+	{
+		models = {
 			`A_C_Wolf_Small`
 		},
 		animation = {
@@ -182,5 +198,3 @@ Config.AttackTypes = {
 		damage = 20
 	}
 }
-
-Config.AttackCooldown = 2000
