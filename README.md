@@ -1,3 +1,8 @@
+-- This is a forked version to future proof
+-- Only small inprovements made, such as higher animal attack damage and adding new animals.
+-- I plan on rewriting parts of the code when i have some time free.
+
+
 Attempts to fix a number of issues with playing as an animal ped in RedM:
 
 - By default, bird and fish peds cannot move at all.
